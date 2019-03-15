@@ -2,13 +2,18 @@
 	"name": "Neo Baroque",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#0e0e0e",
+		"editor.foreground": "#cf9300",
+		// --------
+		"activityBar.foreground": "#f2da93",
+		"activityBar.background": "#0e0e0e",
+		"activityBarBadge.background": "#c5c8c6",
+		"activityBarBadge.foreground": "#444444",
+		// --------
+		"sideBar.background": "#181717",
+		"sideBarTitle.foreground": "#cf9300",
 	},
-	"tokenColors": [
-		{
+	"tokenColors": [{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -16,7 +21,8 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#e1ad2f"
+				// "foreground": "#546E7A"
 			}
 		},
 		{
@@ -56,7 +62,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#ffc642"
+				// "foreground": "#C792EA"
 			}
 		},
 		{
@@ -100,7 +107,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#cf9300"
+				// "foreground": "#82AAFF"
 			}
 		},
 		{
@@ -135,7 +143,8 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#e1ad2f"
+				// "foreground": "#F78C6C"
 			}
 		},
 		{
@@ -150,7 +159,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#f2da93"
 			}
 		},
 		{
