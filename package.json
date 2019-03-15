@@ -1,0 +1,21 @@
+{
+    "name": "neo-baroque-theme",
+    "displayName": "Neo Baroque Theme",
+    "description": "Neo Baroque theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Neo Baroque",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Neo Baroque-color-theme.json"
+            }
+        ]
+    }
+}
