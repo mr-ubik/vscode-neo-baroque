@@ -5,12 +5,12 @@
 		"editor.background": "#0e0e0e",
 		"editor.foreground": "#cf9300",
 		// --------
-		"activityBar.foreground": "#f2da93",
+		"activityBar.foreground": "#f4de94",
 		"activityBar.background": "#0e0e0e",
 		"activityBarBadge.background": "#c5c8c6",
 		"activityBarBadge.foreground": "#444444",
 		// --------
-		"sideBar.background": "#181717",
+		"sideBar.background": "#0e0e0e",
 		"sideBarTitle.foreground": "#cf9300",
 	},
 	"tokenColors": [{
@@ -159,7 +159,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#f2da93"
+				"foreground": "#f4de94"
 			}
 		},
 		{
