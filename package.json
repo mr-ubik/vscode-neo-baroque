@@ -1,23 +1,28 @@
 {
-    "name": "n30-baroque",
-    "displayName": "N30 Baroque Theme",
-    "description": "N30 Baroque theme",
-    "version": "0.4.0",
-    "repository": "https://github.com/mr-ubik/vscode-neo-baroque",
-    "publisher": "mr-ubik",
-    "engines": {
-        "vscode": "^1.32.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "N30 Baroque",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Neo Baroque-color-theme.json"
-            }
-        ]
-    }
+	"name": "n30-baroque",
+	"displayName": "N30 Baroque Theme",
+	"description": "N30 Baroque theme",
+	"version": "0.4.0",
+	"repository": "https://github.com/mr-ubik/vscode-neo-baroque",
+	"publisher": "mr-ubik",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "N30 Baroque",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Neo Baroque-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "03ded8b3-a653-43fa-934d-dc71f52321a2",
+		"publisherDisplayName": "mr-ubik",
+		"publisherId": "d0fe126c-6981-444e-a00c-370546ac86ad"
+	}
 }
