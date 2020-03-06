@@ -2,7 +2,7 @@
     "name": "n30-baroque",
     "displayName": "N30 Baroque Theme",
     "description": "N30 Baroque theme",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "repository": "https://github.com/mr-ubik/vscode-neo-baroque",
     "publisher": "mr-ubik",
     "engines": {
