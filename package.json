@@ -1,8 +1,10 @@
 {
-    "name": "neo-baroque-theme",
-    "displayName": "Neo Baroque Theme",
-    "description": "Neo Baroque theme",
+    "name": "n30-baroque",
+    "displayName": "N30 Baroque Theme",
+    "description": "N30 Baroque theme",
     "version": "0.1.0",
+    "repository": "https://github.com/mr-ubik/vscode-neo-baroque",
+    "publisher": "mr-ubik",
     "engines": {
         "vscode": "^1.32.0"
     },
@@ -12,7 +14,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Neo Baroque",
+                "label": "N30 Baroque",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Neo Baroque-color-theme.json"
             }
