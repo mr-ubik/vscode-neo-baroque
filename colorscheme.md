@@ -87,8 +87,7 @@ LockColor = #0e0e0e
 ## Syntax Theme
 
 - Background: #0e0e0e
-- Foreground: #cf9300
-
+- Foreground: #cf9300 #FFB300
 ### Core Elements
 
 - Comments: #c3c3c3

@@ -13,6 +13,12 @@
             "bold": true,
             "italic": false
         },
+        "*.decorator": {
+            // "foreground": "#ff3300",
+            "foreground": "#cf9400e0",
+            "bold": false,
+            "italic": true
+        },
         "function": {
             "foreground": "#f4da9f",
             "bold": false,
@@ -24,7 +30,8 @@
             "italic": false
         },
         "selfParameter": {
-            "foreground": "#ff8000",
+            // "foreground": "#ff8000",
+            "foreground": "#FF5370",
             "bold": false,
             "italic": true
         },
@@ -35,12 +42,52 @@
         }
     },
     "tokenColors": [
+        // ---------------------------------
+        // Python
+        // ---------------------------------
         {
-            "name": "Keyword, Storage",
-            "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control"],
+            "name": "Function, Python",
+            "scope": ["support.function.builtin.python"],
             "settings": {
-                // "foreground": "#fa8f03"
-                "foreground": "#cf9300"
+                "foreground": "#f4da9f"
+            }
+        },
+        {
+            "name": "Decorator, Python",
+            "scope": [
+                "meta.function.decorator.python",
+                "punctuation.definition.decorator.python",
+                "support.type.python"
+            ],
+            "settings": {
+                // "foreground": "#cf9300",
+                // "foreground": "#FF5370",
+                "foreground": "#ff8000",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Docstring, Python",
+            "scope": ["string.quoted.docstring.multi.python"],
+            "settings": {
+                "foreground": "#c3c3c3"
+            }
+        },
+        // ---------------------------------
+        {
+            "name": "Keyword",
+            "scope": ["keyword"],
+            "settings": {
+                "foreground": "#d9d9d9"
+            }
+        },
+        {
+            "name": "Keyword Control, Storage",
+            "scope": ["storage.type", "storage.modifier", "keyword.control"],
+            "settings": {
+                "foreground": "#fff7b5"
+                // "fontStyle": "bold italic"
+                // "foreground": "#cf9300"
             }
         },
         {
@@ -141,7 +188,8 @@
                 "keyword.other"
             ],
             "settings": {
-                "foreground": "#e1ad2f"
+                "foreground": "#FFB300"
+                // "foreground": "#e1ad2f"
                 // "foreground": "#F78C6C"
             }
         },
